@@ -19,7 +19,7 @@ else
     fi
 
     # assume default location
-    breachDataLocation="/opt/breach-parse/BreachCompilation/data"
+    breachDataLocation="/opt/breach-parse/BreachCompilation/data/"
     # check if BreachCompilation was specified to be somewhere else
     if [ $# -eq 3 ]; then
         if [ -d "$3" ]; then
